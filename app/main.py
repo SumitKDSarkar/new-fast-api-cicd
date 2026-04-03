@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, FastAPI implemented 🚀"}
+    return {"message": "Hello, FastAPI implemented 2 🚀"}
 
 @app.get("/users/{user_id}")
 def get_user(user_id: int):
